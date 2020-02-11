@@ -44,7 +44,7 @@ void findLocalMax(const double A[][N], bool B[][N]){
 void showMatrix(const bool B[][N]){
 	for(int i=0;i<N;i++){
 		for(int j=0;j<N;j++){
-			cout << B[i][j];
+			cout << B[i][j] << " ";
 		}
 		cout << "\n";
 	}
